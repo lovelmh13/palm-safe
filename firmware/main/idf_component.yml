@@ -1,0 +1,4 @@
+# 职责：固定设备已使用的微雪板级支持与图形库版本。
+dependencies:
+  waveshare/esp32_s3_touch_amoled_1_75c: "3.0.0"
+  lvgl/lvgl: "9.5.0"

@@ -1,0 +1,11 @@
+# 职责：保留既有板卡数据地址，在空闲区域独立保存游戏纪录。
+# Name,Type,SubType,Offset,Size,Flags
+nvsfactory,data,nvs,0x9000,0x32000,
+nvs,data,nvs,0x3b000,0xd2000,
+otadata,data,ota,0x10d000,0x2000,
+phy_init,data,phy,0x10f000,0x1000,
+model,data,0x40,0x110000,0xf0000,
+factory,app,factory,0x200000,0x800000,
+storage,data,spiffs,0xa00000,0x600000,
+alertnvs,data,nvs,0x1000000,0x10000,
+gamedata,data,nvs,0x1010000,0x10000,

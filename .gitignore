@@ -1,0 +1,20 @@
+# 职责：仅跟踪游戏源码、测试源码、构建所需文件和第三方许可。
+*
+!/.gitignore
+!/firmware/
+!/firmware/CMakeLists.txt
+!/firmware/dependencies.lock
+!/firmware/partitions.csv
+!/firmware/sdkconfig.defaults
+!/firmware/main/
+!/firmware/main/*.c
+!/firmware/main/*.h
+!/firmware/main/CMakeLists.txt
+!/firmware/main/idf_component.yml
+!/firmware/tests/
+!/firmware/tests/*.c
+!/firmware/tests/*.h
+!/tools/
+!/tools/build-firmware.ps1
+!/licenses/
+!/licenses/*.txt
